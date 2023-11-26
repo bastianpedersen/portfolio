@@ -16,9 +16,9 @@ export default function Stats() {
                 theme === "terminal" ? "font-mono tracking-tight" : ""
             )}
         >
-            <li className="transition-opacity flex capitalize gap-3 items-center">
-                <a className="flex gap-3 items-center" href={"https://scooterhacking.org"}>
-                    <Image src="https://play-lh.googleusercontent.com/rEWEExVM234Unxtf6chcyAOVQoCYcvKOaUT8wZvLo0iYGDUFjlL4h97z20nmzaNHhcA=w240-h480-rw" alt="ScooterHacking logo" width={20} height={20}/>
+            <li className="transition-opacity flex gap-3 items-center">
+                <a className="flex gap-3 items-center" href={"https://play.google.com/store/apps/details?id=com.basse.scootbatt"}>
+                    <Image src="https://play-lh.googleusercontent.com/rEWEExVM234Unxtf6chcyAOVQoCYcvKOaUT8wZvLo0iYGDUFjlL4h97z20nmzaNHhcA=w240-h480-rw" alt="ScooterHacking logo" width={20} height={20} />
                     <div>
                         <span>Creator of Scootbatt</span>
                     </div>

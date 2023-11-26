@@ -28,8 +28,8 @@ export default function Home() {
           </div>
           <p className="max-w-lg animate-in text-primary">
             Hi, I&apos;m Bastian, a fullstack software engineer who loves building cool
-            things with code. In addition to coding, I also make YouTube videos,
-            where I focus on tech, creative vlogs, and personal development.
+            things with code. In addition to coding, I also like playing chess,
+            taking long walks, and exercising.
           </p>
           <ul className="animated-list flex animate-in flex-col gap-2 text-secondary md:flex-row md:gap-6">
             <li className="transition-opacity">

@@ -27,7 +27,7 @@ export default function Home() {
             <Stats />
           </div>
           <p className="max-w-lg animate-in text-primary">
-            Hi, I&apos;m Bastian, a fullstack software engineer who loves building cool
+            Hi, I&apos;m Bastian, a full-stack software engineer who loves building cool
             things with code. In addition to coding, I also like playing chess,
             taking long walks, and exercising.
           </p>

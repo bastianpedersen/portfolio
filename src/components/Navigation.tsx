@@ -76,7 +76,6 @@ export default function Navigation() {
                     >
                         <Popover.Panel
                             className="absolute z-10 right-0 p-2 mt-2 overflow-auto text-base origin-top-right shadow-lg w-40 rounded-xl bg-white dark:bg-black focus:outline-none sm:text-sm"
-                            style={theme === "terminal" ? { background: "#040605" } : {}}
                         >
                             <div className="grid">
                                 {links.map((link) => (

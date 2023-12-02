@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import { Analytics } from '@vercel/analytics/react';
 import { Inter } from "next/font/google";
 import clsx from "clsx";
 
@@ -39,7 +40,8 @@ export default function RootLayout({
               "px-6 md:px-6 pt-16 pb-24 md:pt-20 md:pb-44 max-w-[700px] mx-auto"
             }
         >
-          {children}
+            {children}
+            <Analytics />
         </div>
       </ThemeProvider>
       </body>
